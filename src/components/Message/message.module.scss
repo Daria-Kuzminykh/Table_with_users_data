@@ -1,0 +1,13 @@
+.message {
+	padding: 10px 0;
+	text-align: center;
+	line-height: 21px;
+
+	&_error {
+		color: var(--red);
+	}
+
+	&_success {
+		 color: var(--green);
+	}
+}

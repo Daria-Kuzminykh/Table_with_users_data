@@ -1,0 +1,28 @@
+.button {
+  padding: 14px 0;
+  width: 100%;
+  background-color: var(--blueEF);
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid var(--blueEF);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    border-color: var(--blueHoverF5);
+    background-color: var(--blueHoverF5);
+  }
+  &:active, &:focus {
+    background-color: var(--blueHoverF5);
+    border-color: var(--blueEF);
+  }
+}
+
+@media (max-width: 500px) {
+  .button {
+    padding: 12px 0;
+    font-size: 16px;
+  }
+}

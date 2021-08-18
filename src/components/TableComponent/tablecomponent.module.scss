@@ -1,0 +1,62 @@
+.title {
+  margin-bottom: 30px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.simplebar {
+  width: 100%;
+  max-height: 800px;
+}
+
+.table {
+  width: 1600px;
+  border: 1px solid var(--grayEF);
+  border-radius: 12px;
+  border-spacing: 0;
+
+  &__header {
+    background-color: var(--grayF7);
+  }
+
+  &__headerTd {
+    padding: 10px 22px;
+    font-weight: 600;
+    line-height: 24px;
+
+    &_name {
+      border-top-left-radius: 12px;
+      cursor: pointer;
+    }
+
+    &_actions {
+      border-top-right-radius: 12px;
+    }
+  }
+
+  &__td {
+    padding: 15px 22px;
+    border-top: 1px solid var(--grayEF);
+  }
+
+  &__addBtn {
+    display: flex;
+    align-items: center;
+    color: var(--blueEF);
+
+    & > svg {
+      margin-right: 5px;
+    }
+  }
+
+  &__editBtn {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    margin-bottom: 20px;
+    padding-top: 30px;
+  }
+}

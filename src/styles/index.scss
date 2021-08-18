@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+  url('../fonts/Montserrat-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+  url('../fonts/Montserrat-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+  url('../fonts/Montserrat-SemiBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+  url('../fonts/Montserrat-Bold.woff') format('woff');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: var(--black7B);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1660px;
+}
+
+.simplebar-track.simplebar-vertical {
+  width: 7px;
+}
+
+.simplebar-track.simplebar-horizontal {
+  height: 6px;
+}
+
+:root {
+  --white: #fff;
+  --black73: #5E5873;
+  --black7B: #6E6B7B;
+  --grayC3: #B9B9C3;
+  --grayEF: #E9ECEF;
+  --grayF7: #F3F2F7;
+  --blueF0: #7367F0;
+  --blueHoverF5: #9b93f5;
+  --blueEF: #5D5FEF;
+  --green: #28C76F;
+  --red: #EB5757;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 0 15px;
+  }
+}
