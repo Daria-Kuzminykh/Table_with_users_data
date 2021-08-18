@@ -26,11 +26,8 @@ const Router: FC = () => {
         <Route path={PATHS.error}>
           <Error />
         </Route>
-        <Route path={PATHS.root}>
-          <div>Hello!</div>
-        </Route>
 
-        <Redirect to={PATHS.root} />
+        <Redirect to={PATHS.table} />
       </Switch>
     </BrowserRouter>
   )
